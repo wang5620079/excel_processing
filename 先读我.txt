@@ -1,0 +1,16 @@
+第一步：先安装python，可以安装anaconda的版本
+第二步：安装openpyxl的依赖库(如果安装的是anaconda的版本，这个库就可能已经带上了),cmd命令行里执行：
+pip install openpyxl
+第三步：把py文件、excel文件放到同一个目录下
+第四步：cmd命令行里执行下面的命令：
+python main.py
+或者
+python main-simple.py
+
+
+
+说明：
+1、版本说明
+main.py是复杂版本，带数据排序（不带排序的顺序是随机的）
+main-simple.py是简单版本，不带数据排序
+2、注意输入输出的excel文件名，python程序里是写死的
